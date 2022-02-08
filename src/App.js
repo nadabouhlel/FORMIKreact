@@ -7,10 +7,13 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Container } from "@material-ui/core";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import PhoneInput from 'react-phone-input-2'
-import 'react-phone-input-2/lib/style.css'
-import Select from './components/Select'
-import Card from './components/Card'
+import PhoneInput from 'react-phone-input-2';
+import 'react-phone-input-2/lib/style.css';
+import Select from './components/Select';
+import Card from './components/Card';
+
+
+
 
 const LoginSchema = Yup.object().shape({
 email: Yup.string()
@@ -49,8 +52,7 @@ render() {
 					<Container>
 						<Row>
 						<Col>
-						<Card/>
-					put text rocket here
+				 	<Card/>
 					</Col>
 {/* **************************************************************************************** */}
 
